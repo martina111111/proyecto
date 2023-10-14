@@ -1,0 +1,188 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+/*header*/
+
+header{
+  background-image: url(/assets/img/galaxia.jpg);
+  height: 250px;
+  background-size: cover;
+}
+.logo img {
+  height: 130px;
+  width: 130px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #f1f1f1;
+  padding: 5px;
+  background-color: #f1f1f1;
+  float: left;
+}
+header h1{
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 60px;;
+  margin: 0;
+  text-shadow: 2px 2px 2px #4CAF50; 
+}
+nav ul{
+  display: block;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #111;
+  padding: 5px;
+  font-size: 20px;  
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  text-shadow: 2px 2px 2px #111;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+nav ul li a:hover{ 
+  font-size: 25px;
+  background-color: rgba(207, 36, 230, 0.562);
+  padding: 10px;
+  border-radius: 5px;
+  transition: .5s;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #111;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.lupa{
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 1px;
+}
+#search-form {
+  height: 35px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  float: right;
+}
+#search-input {
+  width: 200px;
+  padding: 5px;
+  height: 30px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
+#search-form button {
+  margin-left: 155px;
+  margin-top: 3px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  text-transform: uppercase;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#search-form button:hover{
+  background-color: rgba(207, 36, 230, 0.526);
+  color: #fff;
+  transition: .5s;
+}
+
+/*main*/ 
+
+ main {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #111;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #11198dab;
+
+}
+  
+main h1, h2{  
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 10px;
+  text-shadow: 2px 2px 2px #18a8d4; 
+}
+main h1, h2, h3{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;  
+}
+main h1{
+  text-align: start;
+}
+main p{
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+  
+#about-us {
+  margin-bottom: 30px;
+}  
+#team ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}  
+#team li {
+  text-align: center;
+  width: 30%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #111;
+}  
+#team img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 2px #111;
+}
+
+  /*footer*/
+
+footer {
+  background-image: url(/assets/img/galaxia.jpg);
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+}
